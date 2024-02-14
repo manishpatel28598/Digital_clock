@@ -9,6 +9,17 @@
     align-items: center;
     
 }
+h1{
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 #DigitalClock1{
     height: 40px;
     width: 400px;
@@ -100,3 +111,118 @@
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+    #DigitalClock{
+        height: 100px;
+        width: 200px;
+        background-color: black;
+        border-radius: 10px;
+        margin:auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    h1{
+        height: 50px;
+        width: 200px;
+        background-color: black;
+        color: aliceblue;
+        border-radius: 10px 10px 0px 0px;
+        margin:auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #DigitalClock1{
+        height: 40px;
+        width: 200px;
+        background-color: black;
+        border-radius: 10px;
+        margin:auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+    #Hours{
+        height: 30px;
+        width: 50px;
+        background-color:darkslategray;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px grey;
+        color:white;
+        font-weight: bolder;
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #Hours1{
+        height: 30px;
+        width: 50px;
+        /* background-color:darkslategray; */
+        border-radius: 2px;
+        /* box-shadow: 2px 2px 2px grey; */
+        color:white;
+        font-weight: bolder;
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #Minutes{
+        height: 30px;
+        width: 50px;
+        background-color:darkslategray;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px grey;
+        color:white;
+        font-weight: bolder;
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #Minutes1{
+        height: 30px;
+        width: 50px;
+        /* background-color:darkslategray; */
+        border-radius: 2px;
+        /* box-shadow: 2px 2px 2px grey; */
+        color:white;
+        font-weight: bolder;
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #Second{
+        height: 30px;
+        width: 50px;
+        background-color:darkslategray;
+        border-radius: 2px;
+        box-shadow: 2px 2px 2px grey;
+        color:white;
+        font-weight: bolder;
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #Second1{
+        height: 30px;
+        width: 50px;
+        /* background-color:darkslategray; */
+        border-radius: 2px;
+        /* box-shadow: 2px 2px 2px grey; */
+        color:white;
+        font-weight: bolder;
+        font-size: xx-large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
